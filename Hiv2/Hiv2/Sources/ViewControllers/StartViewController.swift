@@ -7,13 +7,12 @@
 
 import UIKit
 
-class WellComeViewController: BaseViewController {
+class StartViewController: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
 
 }
 

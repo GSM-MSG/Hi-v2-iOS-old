@@ -19,6 +19,13 @@ class BaseViewController: UIViewController {
         addTarget()
         delegate()
         configNavigation()
+        setupBackgroundIfNotSet()
+    }
+    
+    private func setupBackgroundIfNotSet() {
+        if self.view.backgroundColor == nil {
+            self.view.backgroundColor = .white
+        }
     }
     
     func addView() {}
