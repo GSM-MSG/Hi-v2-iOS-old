@@ -16,6 +16,7 @@
 		D015068F2A0CAE6500FD8C4E /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = D015068E2A0CAE6500FD8C4E /* Then */; };
 		D01506922A0CAE7500FD8C4E /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = D01506912A0CAE7500FD8C4E /* SnapKit */; };
 		D01CC9492A0DE75700493198 /* UIView+addSubViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01CC9482A0DE75700493198 /* UIView+addSubViews.swift */; };
+		D096DA912A13F06200C21DE8 /* UIColor+HexColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D096DA902A13F06200C21DE8 /* UIColor+HexColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		D01506802A0BDE6C00FD8C4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D01506872A0C632800FD8C4E /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		D01CC9482A0DE75700493198 /* UIView+addSubViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+addSubViews.swift"; sourceTree = "<group>"; };
+		D096DA902A13F06200C21DE8 /* UIColor+HexColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+HexColor.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				D01CC9482A0DE75700493198 /* UIView+addSubViews.swift */,
+				D096DA902A13F06200C21DE8 /* UIColor+HexColor.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D01506772A0BDE6B00FD8C4E /* StartViewController.swift in Sources */,
+				D096DA912A13F06200C21DE8 /* UIColor+HexColor.swift in Sources */,
 				D01506882A0C632800FD8C4E /* BaseViewController.swift in Sources */,
 				D01506732A0BDE6B00FD8C4E /* AppDelegate.swift in Sources */,
 				D01506752A0BDE6B00FD8C4E /* SceneDelegate.swift in Sources */,
@@ -340,7 +344,6 @@
 				INFOPLIST_FILE = Hiv2/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -368,7 +371,6 @@
 				INFOPLIST_FILE = Hiv2/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
