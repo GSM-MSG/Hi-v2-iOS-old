@@ -17,6 +17,11 @@
 		D01506922A0CAE7500FD8C4E /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = D01506912A0CAE7500FD8C4E /* SnapKit */; };
 		D01CC9492A0DE75700493198 /* UIView+addSubViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01CC9482A0DE75700493198 /* UIView+addSubViews.swift */; };
 		D096DA912A13F06200C21DE8 /* UIColor+HexColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D096DA902A13F06200C21DE8 /* UIColor+HexColor.swift */; };
+		D0B18F5A2A1F7A0F00B104A2 /* Pretendard-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = D0B18F562A1F7A0F00B104A2 /* Pretendard-Regular.otf */; };
+		D0B18F5B2A1F7A0F00B104A2 /* Pretendard-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = D0B18F572A1F7A0F00B104A2 /* Pretendard-Medium.otf */; };
+		D0B18F5C2A1F7A0F00B104A2 /* Pretendard-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = D0B18F582A1F7A0F00B104A2 /* Pretendard-Bold.otf */; };
+		D0B18F5D2A1F7A0F00B104A2 /* Pretendard-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = D0B18F592A1F7A0F00B104A2 /* Pretendard-SemiBold.otf */; };
+		D0B18F602A1F7BC800B104A2 /* GAuthSignin in Frameworks */ = {isa = PBXBuildFile; productRef = D0B18F5F2A1F7BC800B104A2 /* GAuthSignin */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +35,10 @@
 		D01506872A0C632800FD8C4E /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		D01CC9482A0DE75700493198 /* UIView+addSubViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+addSubViews.swift"; sourceTree = "<group>"; };
 		D096DA902A13F06200C21DE8 /* UIColor+HexColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+HexColor.swift"; sourceTree = "<group>"; };
+		D0B18F562A1F7A0F00B104A2 /* Pretendard-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Regular.otf"; sourceTree = "<group>"; };
+		D0B18F572A1F7A0F00B104A2 /* Pretendard-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Medium.otf"; sourceTree = "<group>"; };
+		D0B18F582A1F7A0F00B104A2 /* Pretendard-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Bold.otf"; sourceTree = "<group>"; };
+		D0B18F592A1F7A0F00B104A2 /* Pretendard-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-SemiBold.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +48,7 @@
 			files = (
 				D015068F2A0CAE6500FD8C4E /* Then in Frameworks */,
 				D01506922A0CAE7500FD8C4E /* SnapKit in Frameworks */,
+				D0B18F602A1F7BC800B104A2 /* GAuthSignin in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +84,7 @@
 		D01506892A0C7BF100FD8C4E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				D0B18F552A1F7A0E00B104A2 /* Fonts */,
 				D015067B2A0BDE6C00FD8C4E /* Assets.xcassets */,
 				D015067D2A0BDE6C00FD8C4E /* LaunchScreen.storyboard */,
 			);
@@ -117,6 +128,17 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		D0B18F552A1F7A0E00B104A2 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D0B18F562A1F7A0F00B104A2 /* Pretendard-Regular.otf */,
+				D0B18F572A1F7A0F00B104A2 /* Pretendard-Medium.otf */,
+				D0B18F582A1F7A0F00B104A2 /* Pretendard-Bold.otf */,
+				D0B18F592A1F7A0F00B104A2 /* Pretendard-SemiBold.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -136,6 +158,7 @@
 			packageProductDependencies = (
 				D015068E2A0CAE6500FD8C4E /* Then */,
 				D01506912A0CAE7500FD8C4E /* SnapKit */,
+				D0B18F5F2A1F7BC800B104A2 /* GAuthSignin */,
 			);
 			productName = Hiv2;
 			productReference = D015066F2A0BDE6B00FD8C4E /* Hiv2.app */;
@@ -168,6 +191,7 @@
 			packageReferences = (
 				D015068D2A0CAE6500FD8C4E /* XCRemoteSwiftPackageReference "Then" */,
 				D01506902A0CAE7500FD8C4E /* XCRemoteSwiftPackageReference "SnapKit" */,
+				D0B18F5E2A1F7BC800B104A2 /* XCRemoteSwiftPackageReference "GAuthSignin-Swift" */,
 			);
 			productRefGroup = D01506702A0BDE6B00FD8C4E /* Products */;
 			projectDirPath = "";
@@ -184,7 +208,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D015067F2A0BDE6C00FD8C4E /* LaunchScreen.storyboard in Resources */,
+				D0B18F5C2A1F7A0F00B104A2 /* Pretendard-Bold.otf in Resources */,
+				D0B18F5A2A1F7A0F00B104A2 /* Pretendard-Regular.otf in Resources */,
+				D0B18F5D2A1F7A0F00B104A2 /* Pretendard-SemiBold.otf in Resources */,
 				D015067C2A0BDE6C00FD8C4E /* Assets.xcassets in Resources */,
+				D0B18F5B2A1F7A0F00B104A2 /* Pretendard-Medium.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,6 +454,14 @@
 				minimumVersion = 5.0.0;
 			};
 		};
+		D0B18F5E2A1F7BC800B104A2 /* XCRemoteSwiftPackageReference "GAuthSignin-Swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/GSM-MSG/GAuthSignin-Swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.3;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -438,6 +474,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = D01506902A0CAE7500FD8C4E /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
+		};
+		D0B18F5F2A1F7BC800B104A2 /* GAuthSignin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D0B18F5E2A1F7BC800B104A2 /* XCRemoteSwiftPackageReference "GAuthSignin-Swift" */;
+			productName = GAuthSignin;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
