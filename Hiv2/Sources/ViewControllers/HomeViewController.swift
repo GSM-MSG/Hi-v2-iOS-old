@@ -5,4 +5,8 @@
 //  Created by AnnKangHo on 2023/06/22.
 //
 
-import Foundation
+import UIKit
+
+final class HomeViewController: BaseViewController {
+    
+}

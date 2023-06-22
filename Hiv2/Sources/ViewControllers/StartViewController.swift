@@ -110,6 +110,16 @@ final class StartViewController: BaseViewController {
             $0.leading.equalTo(contourView.snp.trailing).inset(-8)
         }
     }
+    
+    override func gauthBtnTapped() {
+        gauthButton.prepare(
+            clientID: "a9b7d61e0c964d19864b348b48363d3cc2f65a4706784d9f9e9def67f80510c6",
+            redirectURI: "https://dev-hi.msg-team.com/login/oauth",
+            presenting: self) { code in
+                print(code)
+                self.navigationController?.setViewControllers([HomeViewController()], animated: true)
+        }
+    }
 }
 
 
