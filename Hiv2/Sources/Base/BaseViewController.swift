@@ -21,7 +21,6 @@ class BaseViewController: UIViewController {
         delegate()
         configNavigation()
         setupBackgroundIfNotSet()
-        gauthBtnTapped()
     }
     
     private func setupBackgroundIfNotSet() {
@@ -35,5 +34,4 @@ class BaseViewController: UIViewController {
     func addTarget() {}
     func delegate() {}
     func configNavigation() {}
-    func gauthBtnTapped() {}
 }
