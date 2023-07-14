@@ -28,7 +28,7 @@ final class StartVC: BaseVC {
           $0.contentMode = .scaleAspectFit
      }
      
-     let gauthButton = GAuthButton(auth: .signin, color: .colored, rounded: .default)
+     private let gauthButton = GAuthButton(auth: .signin, color: .colored, rounded: .default)
      
      private let TermsOfServiceButton = UIButton().then {
           $0.setTitle("서비스 이용약관", for: .normal)
@@ -45,7 +45,6 @@ final class StartVC: BaseVC {
           $0.setTitleColor(UIColor(rgb: 0x999999), for: .normal)
           $0.titleLabel?.font = UIFont(name: "Pretendard-Regular", size: 12)
      }
-     
      
      // MARK: Functions
      override func viewDidLoad() {
@@ -100,11 +99,10 @@ final class StartVC: BaseVC {
           gauthButton.prepare(
                clientID: "a9b7d61e0c964d19864b348b48363d3cc2f65a4706784d9f9e9def67f80510c6",
                redirectURI: "https://dev-hi.msg-team.com/login/oauth",
-               presenting: self) { code in
-                    print(code)
-                    self.navigationController?.setViewControllers([HomeVC()], animated: true)
-               }
+               presenting: self
+          ) { code in
+               print(code)
+               self.navigationController?.setViewControllers([HomeVC()], animated: true)
+          }
      }
 }
-
-
