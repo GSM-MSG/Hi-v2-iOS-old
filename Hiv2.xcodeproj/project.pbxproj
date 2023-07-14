@@ -57,14 +57,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3D95C8502A5FB74A0062E185 /* Custom */ = {
-			isa = PBXGroup;
-			children = (
-				3D95C8512A5FB7680062E185 /* CustomTabBarVC.swift */,
-			);
-			path = Custom;
-			sourceTree = "<group>";
-		};
 		D01506662A0BDE6B00FD8C4E = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +95,7 @@
 		D015068A2A0CA93300FD8C4E /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				3D95C8512A5FB7680062E185 /* CustomTabBarVC.swift */,
 				D01506762A0BDE6B00FD8C4E /* StartVC.swift */,
 				3D95C84A2A5FB71F0062E185 /* NoticeVC.swift */,
 				3D95C84C2A5FB72E0062E185 /* ReservationVC.swift */,
@@ -116,7 +109,6 @@
 		D015068C2A0CA95900FD8C4E /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				3D95C8502A5FB74A0062E185 /* Custom */,
 				D01CC9472A0DE43D00493198 /* Extensions */,
 				D01506742A0BDE6B00FD8C4E /* SceneDelegate.swift */,
 				D01506722A0BDE6B00FD8C4E /* AppDelegate.swift */,
