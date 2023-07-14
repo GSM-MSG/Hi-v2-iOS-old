@@ -16,9 +16,16 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         guard let scene = (scene as? UIWindowScene) else { return }
         window = UIWindow(windowScene: scene)
+<<<<<<< HEAD
         let tabBarController = CustomTabBarVC()
         
         window?.rootViewController = tabBarController
+=======
+        let mainViewController = StartVC()
+        let navigationController = UINavigationController(rootViewController: mainViewController)
+        
+        window?.rootViewController = navigationController
+>>>>>>> e5144aa2180c2fbcae2d2c67f06736efc088ce00
         window?.makeKeyAndVisible()
         
         func sceneDidDisconnect(_ scene: UIScene) {
