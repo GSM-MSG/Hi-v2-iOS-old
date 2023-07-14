@@ -7,6 +7,6 @@
 
 import UIKit
 
-final class HomeViewController: BaseViewController {
+final class HomeVC: BaseVC {
     
 }

@@ -9,7 +9,7 @@ import UIKit
 import SnapKit
 import Then
 
-class BaseViewController: UIViewController {
+class BaseVC: UIViewController {
     let bound = UIScreen.main.bounds
     
     override func viewDidLoad() {
