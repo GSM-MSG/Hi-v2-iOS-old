@@ -9,31 +9,21 @@ import UIKit
 import SnapKit
 import Then
 
-<<<<<<< HEAD
 class BaseVC: UIViewController, UITabBarControllerDelegate {
     
     var gotoMyPageButton: UIBarButtonItem?
     var gotoAlertButton: UIBarButtonItem?
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-=======
-class BaseVC: UIViewController {
     let bound = UIScreen.main.bounds
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
->>>>>>> e5144aa2180c2fbcae2d2c67f06736efc088ce00
+
         addView()
         setLayout()
         addTarget()
         delegate()
         configNavigation()
-<<<<<<< HEAD
         configTabBar()
-=======
->>>>>>> e5144aa2180c2fbcae2d2c67f06736efc088ce00
         setupBackgroundIfNotSet()
     }
     
@@ -47,7 +37,6 @@ class BaseVC: UIViewController {
     func setLayout() {}
     func addTarget() {}
     func delegate() {}
-<<<<<<< HEAD
     func configTabBar() {}
     
     func configNavigation() {
@@ -79,7 +68,3 @@ extension BaseVC {
     }
 }
 
-=======
-    func configNavigation() {}
-}
->>>>>>> e5144aa2180c2fbcae2d2c67f06736efc088ce00

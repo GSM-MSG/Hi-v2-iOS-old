@@ -4,7 +4,7 @@
 //
 //  Created by 정윤서 on 2023/05/10.
 //
-
+import UIKit
 import GAuthSignin
 
 final class StartVC: BaseVC {
@@ -94,6 +94,9 @@ final class StartVC: BaseVC {
           }
      }
      
+     override func configNavigation() {
+          navigationController?.isNavigationBarHidden = true
+     }
      func gauthBtnTapped() {
           gauthButton.prepare(
                clientID: "a9b7d61e0c964d19864b348b48363d3cc2f65a4706784d9f9e9def67f80510c6",
