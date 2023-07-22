@@ -1,11 +1,8 @@
-# This workflow will build a Swift project
-# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-swift
-
-name: Run Test
+name: CI
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ master ]
   pull_request:
     branches: [ "*" ]
 
@@ -21,5 +18,3 @@ jobs:
         xcodebuild clean test -project Hiv2.xcodeproj \
         -scheme Hiv2 \
         -destination 'platform=iOS, Simulator,name=iPhone 13 mini,OS=latest'
-    - name: Run tests
-      run: swift test -v
