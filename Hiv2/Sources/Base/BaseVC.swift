@@ -9,17 +9,21 @@ import UIKit
 import SnapKit
 import Then
 
-class BaseVC: UIViewController {
+class BaseVC: UIViewController, UITabBarControllerDelegate {
+    
+    var gotoMyPageButton: UIBarButtonItem?
+    var gotoAlertButton: UIBarButtonItem?
     let bound = UIScreen.main.bounds
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         addView()
         setLayout()
         addTarget()
         delegate()
         configNavigation()
+        configTabBar()
         setupBackgroundIfNotSet()
     }
     
@@ -33,5 +37,34 @@ class BaseVC: UIViewController {
     func setLayout() {}
     func addTarget() {}
     func delegate() {}
-    func configNavigation() {}
+    func configTabBar() {}
+    
+    func configNavigation() {
+        self.view.backgroundColor = UIColor(named: "noticeBackgroundColor")
+        
+        gotoMyPageButton = UIBarButtonItem(image: UIImage(systemName: "person.circle.fill")?.withRenderingMode(.alwaysOriginal), style: .plain, target: self, action: #selector(gotoMyPageVC))
+        gotoMyPageButton?.tintColor = .systemGray4
+        gotoAlertButton = UIBarButtonItem(image: UIImage(systemName: "bell.badge")?.withRenderingMode(.alwaysOriginal), style: .plain, target: self, action: #selector(gotoAlertVC))
+        gotoAlertButton?.tintColor = .black
+        let logoBarButtonItem = UIBarButtonItem(customView: UIImageView(image: UIImage(named: "LogoImage")))
+        logoBarButtonItem.customView?.frame = CGRect(x: 0, y: 0, width: 21, height: 27)
+        if let myPageButton = gotoMyPageButton, let alertButton = gotoAlertButton {
+            navigationItem.rightBarButtonItems = [myPageButton, alertButton]
+        }
+        navigationItem.leftBarButtonItem = logoBarButtonItem
+    }
 }
+
+extension BaseVC {
+    
+    @objc func gotoMyPageVC() {
+        let gotoMyPageVC = MyPageVC()
+        self.navigationController?.setViewControllers([gotoMyPageVC], animated: true)
+    }
+    
+    @objc func gotoAlertVC() {
+        let gotoAlertVC = AlertVC()
+        self.navigationController?.setViewControllers([gotoAlertVC], animated: true)
+    }
+}
+
