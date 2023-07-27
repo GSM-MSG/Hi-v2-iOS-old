@@ -1,10 +1,3 @@
-//
-//  Hiv2Tests.swift
-//  Hiv2Tests
-//
-//  Created by 정윤서 on 2023/07/26.
-//
-
 import XCTest
 
 final class Hiv2Tests: XCTestCase {
