@@ -23,12 +23,32 @@
 		D01506922A0CAE7500FD8C4E /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = D01506912A0CAE7500FD8C4E /* SnapKit */; };
 		D01CC9492A0DE75700493198 /* UIView+addSubViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01CC9482A0DE75700493198 /* UIView+addSubViews.swift */; };
 		D096DA912A13F06200C21DE8 /* UIColor+HexColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D096DA902A13F06200C21DE8 /* UIColor+HexColor.swift */; };
+		D0AA9CB52A710B6E00C16679 /* Hiv2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AA9CB42A710B6E00C16679 /* Hiv2UITests.swift */; };
+		D0AA9CB72A710B6E00C16679 /* Hiv2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AA9CB62A710B6E00C16679 /* Hiv2UITestsLaunchTests.swift */; };
+		D0AA9CC42A710BF300C16679 /* Hiv2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AA9CC32A710BF300C16679 /* Hiv2Tests.swift */; };
 		D0B18F5A2A1F7A0F00B104A2 /* Pretendard-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = D0B18F562A1F7A0F00B104A2 /* Pretendard-Regular.otf */; };
 		D0B18F5B2A1F7A0F00B104A2 /* Pretendard-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = D0B18F572A1F7A0F00B104A2 /* Pretendard-Medium.otf */; };
 		D0B18F5C2A1F7A0F00B104A2 /* Pretendard-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = D0B18F582A1F7A0F00B104A2 /* Pretendard-Bold.otf */; };
 		D0B18F5D2A1F7A0F00B104A2 /* Pretendard-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = D0B18F592A1F7A0F00B104A2 /* Pretendard-SemiBold.otf */; };
 		D0B18F602A1F7BC800B104A2 /* GAuthSignin in Frameworks */ = {isa = PBXBuildFile; productRef = D0B18F5F2A1F7BC800B104A2 /* GAuthSignin */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0AA9CB82A710B6E00C16679 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D01506672A0BDE6B00FD8C4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D015066E2A0BDE6B00FD8C4E;
+			remoteInfo = Hiv2;
+		};
+		D0AA9CC52A710BF300C16679 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D01506672A0BDE6B00FD8C4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D015066E2A0BDE6B00FD8C4E;
+			remoteInfo = Hiv2;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		3D95C84A2A5FB71F0062E185 /* NoticeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeVC.swift; sourceTree = "<group>"; };
@@ -47,6 +67,11 @@
 		D01506872A0C632800FD8C4E /* BaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
 		D01CC9482A0DE75700493198 /* UIView+addSubViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+addSubViews.swift"; sourceTree = "<group>"; };
 		D096DA902A13F06200C21DE8 /* UIColor+HexColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+HexColor.swift"; sourceTree = "<group>"; };
+		D0AA9CB22A710B6E00C16679 /* Hiv2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Hiv2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0AA9CB42A710B6E00C16679 /* Hiv2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hiv2UITests.swift; sourceTree = "<group>"; };
+		D0AA9CB62A710B6E00C16679 /* Hiv2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hiv2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D0AA9CC12A710BF300C16679 /* Hiv2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Hiv2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0AA9CC32A710BF300C16679 /* Hiv2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hiv2Tests.swift; sourceTree = "<group>"; };
 		D0B18F562A1F7A0F00B104A2 /* Pretendard-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Regular.otf"; sourceTree = "<group>"; };
 		D0B18F572A1F7A0F00B104A2 /* Pretendard-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Medium.otf"; sourceTree = "<group>"; };
 		D0B18F582A1F7A0F00B104A2 /* Pretendard-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Bold.otf"; sourceTree = "<group>"; };
@@ -64,6 +89,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D0AA9CAF2A710B6E00C16679 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0AA9CBE2A710BF200C16679 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -71,6 +110,8 @@
 			isa = PBXGroup;
 			children = (
 				D01506712A0BDE6B00FD8C4E /* Hiv2 */,
+				D0AA9CB32A710B6E00C16679 /* Hiv2UITests */,
+				D0AA9CC22A710BF300C16679 /* Hiv2Tests */,
 				D01506702A0BDE6B00FD8C4E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -79,6 +120,8 @@
 			isa = PBXGroup;
 			children = (
 				D015066F2A0BDE6B00FD8C4E /* Hiv2.app */,
+				D0AA9CB22A710B6E00C16679 /* Hiv2UITests.xctest */,
+				D0AA9CC12A710BF300C16679 /* Hiv2Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -107,14 +150,12 @@
 			isa = PBXGroup;
 			children = (
 				3D95C8512A5FB7680062E185 /* CustomTabBarVC.swift */,
-				D01506762A0BDE6B00FD8C4E /* StartVC.swift */,
 				3D95C84A2A5FB71F0062E185 /* NoticeVC.swift */,
 				3D95C84C2A5FB72E0062E185 /* ReservationVC.swift */,
 				3D95C84E2A5FB73D0062E185 /* HomeVC.swift */,
 				3D95C8532A600F190062E185 /* AlertVC.swift */,
 				3D95C8552A6010220062E185 /* MyPageVC.swift */,
 				D01506762A0BDE6B00FD8C4E /* StartVC.swift */,
-				3D841A552A4488AA005013D2 /* HomeVC.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -146,6 +187,23 @@
 				D096DA902A13F06200C21DE8 /* UIColor+HexColor.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D0AA9CB32A710B6E00C16679 /* Hiv2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				D0AA9CB42A710B6E00C16679 /* Hiv2UITests.swift */,
+				D0AA9CB62A710B6E00C16679 /* Hiv2UITestsLaunchTests.swift */,
+			);
+			path = Hiv2UITests;
+			sourceTree = "<group>";
+		};
+		D0AA9CC22A710BF300C16679 /* Hiv2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D0AA9CC32A710BF300C16679 /* Hiv2Tests.swift */,
+			);
+			path = Hiv2Tests;
 			sourceTree = "<group>";
 		};
 		D0B18F552A1F7A0E00B104A2 /* Fonts */ = {
@@ -184,6 +242,42 @@
 			productReference = D015066F2A0BDE6B00FD8C4E /* Hiv2.app */;
 			productType = "com.apple.product-type.application";
 		};
+		D0AA9CB12A710B6E00C16679 /* Hiv2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0AA9CBC2A710B6E00C16679 /* Build configuration list for PBXNativeTarget "Hiv2UITests" */;
+			buildPhases = (
+				D0AA9CAE2A710B6E00C16679 /* Sources */,
+				D0AA9CAF2A710B6E00C16679 /* Frameworks */,
+				D0AA9CB02A710B6E00C16679 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0AA9CB92A710B6E00C16679 /* PBXTargetDependency */,
+			);
+			name = Hiv2UITests;
+			productName = Hiv2UITests;
+			productReference = D0AA9CB22A710B6E00C16679 /* Hiv2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		D0AA9CC02A710BF200C16679 /* Hiv2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0AA9CC72A710BF300C16679 /* Build configuration list for PBXNativeTarget "Hiv2Tests" */;
+			buildPhases = (
+				D0AA9CBD2A710BF200C16679 /* Sources */,
+				D0AA9CBE2A710BF200C16679 /* Frameworks */,
+				D0AA9CBF2A710BF200C16679 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0AA9CC62A710BF300C16679 /* PBXTargetDependency */,
+			);
+			name = Hiv2Tests;
+			productName = Hiv2Tests;
+			productReference = D0AA9CC12A710BF300C16679 /* Hiv2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -196,6 +290,14 @@
 				TargetAttributes = {
 					D015066E2A0BDE6B00FD8C4E = {
 						CreatedOnToolsVersion = 14.3;
+					};
+					D0AA9CB12A710B6E00C16679 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = D015066E2A0BDE6B00FD8C4E;
+					};
+					D0AA9CC02A710BF200C16679 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = D015066E2A0BDE6B00FD8C4E;
 					};
 				};
 			};
@@ -218,6 +320,8 @@
 			projectRoot = "";
 			targets = (
 				D015066E2A0BDE6B00FD8C4E /* Hiv2 */,
+				D0AA9CB12A710B6E00C16679 /* Hiv2UITests */,
+				D0AA9CC02A710BF200C16679 /* Hiv2Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -233,6 +337,20 @@
 				D0B18F5D2A1F7A0F00B104A2 /* Pretendard-SemiBold.otf in Resources */,
 				D015067C2A0BDE6C00FD8C4E /* Assets.xcassets in Resources */,
 				D0B18F5B2A1F7A0F00B104A2 /* Pretendard-Medium.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0AA9CB02A710B6E00C16679 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0AA9CBF2A710BF200C16679 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +377,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D0AA9CAE2A710B6E00C16679 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0AA9CB52A710B6E00C16679 /* Hiv2UITests.swift in Sources */,
+				D0AA9CB72A710B6E00C16679 /* Hiv2UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0AA9CBD2A710BF200C16679 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0AA9CC42A710BF300C16679 /* Hiv2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0AA9CB92A710B6E00C16679 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D015066E2A0BDE6B00FD8C4E /* Hiv2 */;
+			targetProxy = D0AA9CB82A710B6E00C16679 /* PBXContainerItemProxy */;
+		};
+		D0AA9CC62A710BF300C16679 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D015066E2A0BDE6B00FD8C4E /* Hiv2 */;
+			targetProxy = D0AA9CC52A710BF300C16679 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		D015067D2A0BDE6C00FD8C4E /* LaunchScreen.storyboard */ = {
@@ -323,7 +471,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -377,7 +525,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -441,6 +589,76 @@
 			};
 			name = Release;
 		};
+		D0AA9CBA2A710B6E00C16679 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FHST2C78H4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yoonseo.Hiv2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Hiv2;
+			};
+			name = Debug;
+		};
+		D0AA9CBB2A710B6E00C16679 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FHST2C78H4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yoonseo.Hiv2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Hiv2;
+			};
+			name = Release;
+		};
+		D0AA9CC82A710BF300C16679 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FHST2C78H4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yoonseo.Hiv2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hiv2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hiv2";
+			};
+			name = Debug;
+		};
+		D0AA9CC92A710BF300C16679 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FHST2C78H4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yoonseo.Hiv2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hiv2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hiv2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -458,6 +676,24 @@
 			buildConfigurations = (
 				D01506842A0BDE6C00FD8C4E /* Debug */,
 				D01506852A0BDE6C00FD8C4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0AA9CBC2A710B6E00C16679 /* Build configuration list for PBXNativeTarget "Hiv2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0AA9CBA2A710B6E00C16679 /* Debug */,
+				D0AA9CBB2A710B6E00C16679 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0AA9CC72A710BF300C16679 /* Build configuration list for PBXNativeTarget "Hiv2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0AA9CC82A710BF300C16679 /* Debug */,
+				D0AA9CC92A710BF300C16679 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
