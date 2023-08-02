@@ -1,6 +1,5 @@
 import UIKit
 import GAuthSignin
-import SnapKit
 
 final class StartVC: BaseVC {
      
